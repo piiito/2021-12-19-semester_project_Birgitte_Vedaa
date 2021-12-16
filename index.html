@@ -4,9 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Science Museum</title>
+    <meta name="description" content="Welcome to the Community Science Museum, our amazingly interactive and amusing exhibitions is designed to both broaden your mind and entertain you at the same time!"/>
+    
+    <link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&family=Staatliches&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4eeada3bf1.js" crossorigin="anonymous"></script>
+    <title>Community Science Museum | Home</title>
 </head>
 <body>
-    Welcome
+    <header>
+        <a href="index.html"> <img src="images/logo.png" alt="museum logo"></a>
+        <a class="csm" href="index.html">Community Science Museum</a>
+        <nav>
+            <div class="hamburger_menu">
+                <input type="checkbox" id="hamburger-checkbox"/>
+                <label for="hamburger-checkbox"><i class="fas fa-bars"></i></label> 
+            <ul class="hamburger">
+                <li> <a href="#"> News</a></li>
+                <li> <a href="#"> Explore</a></li>
+                <li> <a href="#"> Exhibitions</a></li>
+                <li> <a href="getinvolved.html"> Get Involved</a></li>
+                <li> <a href="#"> About Us</a></li>
+                <li> <a href="visit.html"> Plan your visit</a></li>
+            </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="news">
+            <a href="#">
+                <img src="images/night_museum.jpg" alt="Exhibition of a dinosaur skeleton at night"/>
+                <h1>Night at the museum</h1>
+            </a>
+        </section>
+        <section class="cta">
+            <a href="#">Plan your visit</a>
+        </section>
+        <section class="exhibition">
+            <h2>Our exhibition spaces</h2>
+        </section>
+        <section class="exhibition_spaces">
+            <div>
+                <a href="cosmology.html">
+                    <img src="images/cosmology.jpg" alt="Image of the earth from space with the sun peeking behind it"/>
+                    <p>Cosmology</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/evolution.jpg" alt="Illustration of humans hunting a woolly mammoth"/>
+                    <p>Evolution</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/robotics.jpg" alt="Image of Rob the robot looking into the camera"/>
+                    <p>Robotics & AI</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/biology.jpg" alt="Image of bacterias moving forward with their flagellas"/>
+                    <p>Biology & medicine</p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="images/ecology.jpg" alt="Image of a hand holding a miniature earth overgrown with green plants"/>
+                    <p>Ecology</p>
+                </a>
+            </div>
+            <div>
+                <p></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Follow us</p>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+       <section class="contact">
+        <p>Contact us</p>
+        <p>E-mail: contact@csm.com</p>
+        <p>Phone number: +47 550 05 655</p>
+       </section> 
+        Copyright ©
+    </footer>
 </body>
 </html>
