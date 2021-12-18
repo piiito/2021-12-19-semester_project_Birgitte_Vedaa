@@ -282,6 +282,50 @@ a {
   text-shadow: 1px 3px 4px rgb(175, 175, 175);
 }
 
+/* Page under construction */
+
+.under_construction {
+  padding: 50px 0px;
+  text-align: center;
+  margin: 100px 20px 200px;
+  box-shadow: 1px 3px 6px grey;
+  border-width: 1px;
+  border-color: none;
+}
+
+.under_construction h1 {
+  font-size: 2em;
+  margin: 0px;
+  color: #1b862f;
+}
+
+.under_construction h2 {
+  font-family: gudea;
+  font-weight: 400;
+  font-size: 1.2em;
+  margin: 0px 20px 30px;
+}
+
+.under_construction a {
+  background-color: #eb0000;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-kerning: 1px;
+  border-radius: 20px;
+  font-size: 0.8em;
+  font-family: gudea;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 1px 3px 6px grey;
+  letter-spacing: 1px;
+}
+
+.under_construction a:hover {
+  background-color: #1b862f;
+  transition: all 0.3s ease;
+}
+
 /* Cosmology page */
 
 .cosmology h1 {
@@ -488,6 +532,10 @@ table tr:first-child {
     margin: -50px 0px 15px;
   }
 
+  .under_construction {
+    margin: 100px 100px 200px;
+  }
+
   .moon {
     padding-bottom: 500px;
     background-size: 100%;
@@ -673,6 +721,10 @@ table tr:first-child {
 
   .exhibition_spaces p {
     font-size: 1.6em;
+  }
+
+  .under_construction {
+    margin: 100px 200px 200px;
   }
 
   .universe_background {
