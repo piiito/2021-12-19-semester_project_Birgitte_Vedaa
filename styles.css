@@ -27,7 +27,7 @@ footer {
 
 header {
   max-width: 100%;
-  border-color: #3fa652;
+  border-color: #1b862f;
   border-style: solid;
   border-width: 0px 0px 1px 0px;
   display: grid;
@@ -85,7 +85,7 @@ nav li {
   padding: 40px 50px;
   height: 275px;
   width: 200px;
-  box-shadow: 1px 4px 6px #3fa652;
+  box-shadow: 1px 4px 6px #1b862f;
 }
 
 .hamburger ul {
@@ -110,7 +110,7 @@ ul {
 }
 
 .hamburger a:hover {
-  color: #3fa652;
+  color: #1b862f;
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
@@ -126,7 +126,7 @@ header i {
 
 footer {
   text-align: center;
-  background-color: #3fa652;
+  background-color: #1b862f;
   color: white;
   font-family: gudea;
   padding-bottom: 20px;
@@ -194,7 +194,7 @@ a {
   z-index: 1;
   display: block;
   width: 100%;
-  background-color: rgba(63, 166, 88, 0.55);
+  background-color: rgba(27, 134, 47, 0.55);
   color: white;
 }
 
@@ -204,7 +204,7 @@ a {
 }
 
 .cta a {
-  background-color: #fd3131;
+  background-color: #eb0000;
   color: white;
   padding: 12px 30px;
   text-align: center;
@@ -267,7 +267,7 @@ a {
 }
 
 .exhibition_spaces div:last-child {
-  background-color: #3fa652;
+  background-color: #1b862f;
   border-radius: 0px 35px;
   box-shadow: 1px 3px 6px grey;
 }
@@ -278,7 +278,7 @@ a {
 }
 
 .exhibition_spaces div:nth-child(5) p {
-  color: #3fa652;
+  color: #1b862f;
   text-shadow: 1px 3px 4px rgb(175, 175, 175);
 }
 
@@ -352,12 +352,11 @@ a {
   margin: 0px;
 }
 
-.get_involved_background {
+.get_involved {
   margin: 0px 40px -16px;
   background-image: url("images/volunteer_background.png");
   background-repeat: no-repeat;
   background-size: 80%;
-  opacity: 60%;
   background-position: center bottom;
   background-attachment: fixed;
   padding: 20px 0px 100px;
@@ -416,7 +415,7 @@ table {
 }
 
 table tr:first-child {
-  color: #fd3131;
+  color: #eb0000;
 }
 
 .map {
@@ -590,6 +589,7 @@ table tr:first-child {
     padding-right: 0px;
     grid-column: 3;
     grid-row: 2;
+    height: 50%;
   }
   nav li {
     display: inline;
@@ -633,7 +633,7 @@ table tr:first-child {
   }
 
   .hamburger a:hover {
-    color: #3fa652;
+    color: #1b862f;
   }
 
   .hamburger_menu {
