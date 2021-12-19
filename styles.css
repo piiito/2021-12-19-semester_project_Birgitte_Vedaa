@@ -27,9 +27,6 @@ footer {
 
 header {
   max-width: 100%;
-  border-color: #1b862f;
-  border-style: solid;
-  border-width: 0px 0px 1px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   box-shadow: 2px 3px 5px lightgrey;
@@ -107,13 +104,13 @@ ul {
   font-size: 1.6em;
   color: black;
   display: inline-block;
-  transition: 0.3s ease;
+  transition: 0.3s ease out;
 }
 
 .hamburger a:hover {
   color: #1b862f;
   transform: scale(1.1);
-  transition: all 0.3s ease;
+  transition: all 0.3s ease in;
 }
 
 .hamburger_menu {
