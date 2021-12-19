@@ -203,15 +203,6 @@ a {
   color: white;
 }
 
-.news {
-  transition: all 2s ease;
-}
-
-.news:hover {
-  transform: scale(0.9);
-  transition: all 2s ease;
-}
-
 .cta a {
   background-color: #eb0000;
   color: white;
